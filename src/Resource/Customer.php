@@ -134,6 +134,17 @@ class Customer extends MoipResource
         return $this->getIfSet('id');
     }
 
+    
+    /**
+     * Get customer OwnId.
+     *
+     * @return string The buyer OwnId.
+     */
+    public function getOwnId()
+    {
+        return $this->getIfSet('ownId');
+    }
+
     /**
      * Get customer address.
      *
